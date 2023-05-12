@@ -13,10 +13,10 @@
     "react-scripts": "3.4.1"
   },
   "scripts": {
-    "start": "export SET NODE_OPTIONS=--openssl-legacy-provider && react-scripts start --port 3001",
-    "build": "export SET NODE_OPTIONS=--openssl-legacy-provider && react-scripts build",
-    "test": "export SET NODE_OPTIONS=--openssl-legacy-provider && react-scripts test",
-    "eject": "export SET NODE_OPTIONS=--openssl-legacy-provider && react-scripts eject"
+    "start": "NODE_OPTIONS=--openssl-legacy-provider && react-scripts start --port 3001",
+    "build": "NODE_OPTIONS=--openssl-legacy-provider && react-scripts build",
+    "test": "NODE_OPTIONS=--openssl-legacy-provider && react-scripts test",
+    "eject": "NODE_OPTIONS=--openssl-legacy-provider && react-scripts eject"
   },
   "proxy": "http://localhost:80",
   "eslintConfig": {
