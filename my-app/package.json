@@ -13,10 +13,10 @@
     "react-scripts": "3.4.1"
   },
   "scripts": {
-    "start": "react-scripts start --openssl-legacy-provider --port 3001",
-    "build": "react-scripts build --openssl-legacy-provider",
-    "test": "react-scripts test --openssl-legacy-provider",
-    "eject": "react-scripts eject --openssl-legacy-provider"
+    "start": "react-scripts start --port 3001",
+    "build": "react-scripts build ",
+    "test": "react-scripts test ",
+    "eject": "react-scripts eject "
   },
   "proxy": "http://localhost:80",
   "eslintConfig": {
